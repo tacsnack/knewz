@@ -1,0 +1,5 @@
+.cred
+__pycache__/
+pretrained/
+*_cache.json
+*.png
