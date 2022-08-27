@@ -1,1 +1,1 @@
-# ttop
+Auto-gen'd news and pictures for various topics

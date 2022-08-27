@@ -61,20 +61,20 @@ def generate_image(
 def summarize_tweets(tweets):
     TEXT_CLEANING_RE = "#\S+|@\S+|https?:\S+|http?:\S|[^A-Za-z0-9]+"
     text_clean = re.sub(TEXT_CLEANING_RE, ' ', str(".".join(tweets)).lower()).strip()
-    print(text_clean)
-    tokens_input = TOKENIZER.encode("summarize: " + text_clean, return_tensors="pt", max_length=512, truncation=True)
+
+    words = text_clean.split(" ")
+    removed_duplicates = []
+    for w in words:
+        if w not in removed_duplicates:
+            removed_duplicates.append(w)
+    tokens_input = TOKENIZER.encode("summarize: " + " ".join(removed_duplicates), return_tensors="pt", max_length=512, truncation=True)
     summary_ids = MODEL.generate(
         tokens_input,
         min_length=10,
         max_length=100,
         length_penalty=4.0)
     summary = TOKENIZER.decode(summary_ids[0])
-    words = summary.split(" ")
-    removed_duplicates = []
-    for w in words:
-        if w not in removed_duplicates:
-            removed_duplicates.append(w)
-    return " ".join(removed_duplicates)
+    return summary
 
 # To set your environment variables in your terminal run the following line:
 # export 'BEARER_TOKEN'='<your_bearer_token>'
@@ -82,7 +82,7 @@ TOKEN = open('./.cred', 'r+').read()
 
 SEARCH_URL = "https://api.twitter.com/2/tweets/search/recent"
 
-QUERY = 'canada'
+QUERY = 'kelowna'
 
 def get_latest_tweets(url, query):
     query_params = {'query': f'#{query}','tweet.fields': 'author_id', 'max_results': '20'}
@@ -112,6 +112,7 @@ def main():
     
     # TODO how can something more cohesive be generated (without more training data...?)
     printable_string = summary.lstrip('<pad> ').replace('< /s >', '')
+    print(printable_string)
     blob = TextBlob(printable_string)
     nouns = blob.noun_phrases
     print(nouns)
