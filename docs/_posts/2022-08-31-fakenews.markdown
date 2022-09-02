@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "fakenews 2022-08-31"
+date:   2022-08-31 01:10:10 -0700
+categories: fakenews
+---
+<img src="{{site.baseurl}}/assets/img/fakenews_2022_08_31.png">
+<div><p>elon fake is going on a norwegian cruise line for his 60th birthday born in 2023. he is celebrating his 60th birthday on a cruise ship. he is also on a norwegian cruise line</p></div>

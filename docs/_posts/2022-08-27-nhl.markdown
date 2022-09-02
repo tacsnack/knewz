@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "nhl 2022-08-27"
+date:   2022-08-27 01:10:10 -0700
+categories: nhl
+---
+<img src="{{site.baseurl}}/assets/img/nhl_2022_08_27.png">
+<div><p>canada is the second most active ncaaf team in the world. charlie lindgren is the most active nhl player in the world. luke donald is the most active ncaaf player in the world</p></div>

@@ -59,8 +59,6 @@ def generate_image(
     )
     save_image(image, image_path)
 
-
-
 def summarize_tweets(tweets):
     TEXT_CLEANING_RE = "#\S+|@\S+|https?:\S+|http?:\S|[^A-Za-z0-9]+"
     text_clean = re.sub(TEXT_CLEANING_RE, ' ', str(".".join(tweets)).lower()).strip()
@@ -154,45 +152,27 @@ def main():
                 'summary': printable_string,
                 'image_text': sentence,
                 'image_path': f"./{query}_{printable_date}.png"}, fs, indent=2)
-        shutil.copy2(f"./{query}_{printable_date}.png", f"./docs")
+        shutil.copy2(f"./{query}_{printable_date}.png", f"./docs/assets/img")
 
 
-def generate_article(document, path):
-    article_template = jinja2.Template("""
-<h1>{{doc.topic}}-{{doc.date}}</h1>
-<img src="{{doc.image_path}}" alt="{{doc.image_text}}"> 
-<p>{{doc.summary}}</p>
+ARTICLE_TEMPLATE = jinja2.Template("""---
+layout: post
+title:  "{{document.topic}} {{document.date}}"
+date:   {{document["date"]}} 01:10:10 -0700
+categories: {{document["topic"]}}
+---
+<img src="{{document["image_path"]}}">
+<div><p>{{document["summary"]}}</p></div>
 """)
-    html_url = f'{document["topic"]}_{document["date"]}.html'
-    with open(os.path.join(path, html_url), 'w+') as fs:
-        fs.write(article_template.render(doc=document))
-    return html_url
-
-def generate_index(index, path):
-    index_template = jinja2.Template("""
-<h1>Knewz</h1>
-{% for topic_name, articles in topics.items() %}
- <h2>{{topic_name}}</h2>
-  <ul>
-    {% for article in articles %}
-      <li><a href="{{article['url']}}">{{article['topic']}} - {{article['date']}}</a></li>
-    {% endfor %}
-  </ul> 
-{% endfor %}
-""")
-    with open(os.path.join(path, 'index.html'), 'w+') as fs:
-        fs.write(index_template.render(topics=index))
 
 def generate_docs():
-    index = {}
     for filename in os.listdir('./articles'):
         article = json.load(open(f'./articles/{filename}', 'r'))
-        if article['topic'] not in index:
-            index[article['topic']] = []
-        url = generate_article(article, './docs')
-        article['url'] = url
-        index[article['topic']].append(article)
-    generate_index(index, './docs')
+        article["date"] = article["date"].replace('_', '-')
+        article['image_path'] = r"{{site.baseurl}}/assets/img/" + article['image_path'].split('/')[-1]
+        html_url = f'{article["date"]}-{article["topic"]}.markdown'
+        with open(os.path.join('./docs/_posts', html_url), 'w+') as fs:
+            fs.write(ARTICLE_TEMPLATE.render(document=article))
 
 if __name__ == "__main__":
     main()

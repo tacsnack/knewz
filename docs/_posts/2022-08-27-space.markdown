@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "space 2022-08-27"
+date:   2022-08-27 01:10:10 -0700
+categories: space
+---
+<img src="{{site.baseurl}}/assets/img/space_2022_08_27.png">
+<div><p>nftcommunity is the only nft project that will take you to real space. nftcommunity is a coming of age military academy adventure. nftcommunity is a nft community that is open to all nft fans</p></div>

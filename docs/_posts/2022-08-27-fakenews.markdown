@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "fakenews 2022-08-27"
+date:   2022-08-27 01:10:10 -0700
+categories: fakenews
+---
+<img src="{{site.baseurl}}/assets/img/fakenews_2022_08_27.png">
+<div><p>claudia roosevelt snbc snbc snbc snbc snbc snbc snbc snbc snbc snbc snbc snbc snbc snbc snbc snbc snbc </p></div>
