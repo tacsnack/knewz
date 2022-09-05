@@ -2,4 +2,3 @@
 __pycache__/
 pretrained/
 *_cache.json
-*.png
