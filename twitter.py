@@ -87,7 +87,9 @@ QUERIES = [
     'space',
     'nhl',
     'kelowna',
-    'fakenews'
+    'fakenews',
+    'science',
+    'politics'
 ]
 
 def get_latest_tweets(url, query):
@@ -153,6 +155,7 @@ def main():
                 'image_text': sentence,
                 'image_path': f"./{query}_{printable_date}.png"}, fs, indent=2)
         shutil.copy2(f"./{query}_{printable_date}.png", f"./docs/assets/img")
+        # os.remove(f"./{query}_{printable_date}.png")
 
 
 ARTICLE_TEMPLATE = jinja2.Template("""---
