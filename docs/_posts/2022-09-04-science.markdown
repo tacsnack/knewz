@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "science 2022-09-04"
+date:   2022-09-04 01:10:10 -0700
+categories: science
+---
+<img src="{{site.baseurl}}/assets/img/science_2022_09_04.png">
+<div><p>china is becoming the top destination for researchers and innovators of ages. a new survey shows 48 people talk their plants it might be making them nervous. a new study shows that axolotl brain cells are associated with neurodegeneration</p></div>

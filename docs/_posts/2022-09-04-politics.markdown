@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "politics 2022-09-04"
+date:   2022-09-04 01:10:10 -0700
+categories: politics
+---
+<img src="{{site.baseurl}}/assets/img/politics_2022_09_04.png">
+<div><p>joebiden biden has a new book to share with you. he explains why he s more now than when was chasing al qaeda and isis. he also explains why he s more now than when was chasing al qaeda and isis</p></div>

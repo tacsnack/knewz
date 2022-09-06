@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "kelowna 2022-09-04"
+date:   2022-09-04 01:10:10 -0700
+categories: kelowna
+---
+<img src="{{site.baseurl}}/assets/img/kelowna_2022_09_04.png">
+<div><p>kelowna buddhist cultural centre business takes off on saturday november 14. buddhist cultural centre is a new cultural centre for the buddhist community. a new buddhist cultural centre is opening in kelowna</p></div>

@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "fakenews 2022-09-04"
+date:   2022-09-04 01:10:10 -0700
+categories: fakenews
+---
+<img src="{{site.baseurl}}/assets/img/fakenews_2022_09_04.png">
+<div><p>fbi wittch hunt continues ea devcouncil amb seleshi b sets record straight. cnn biased reporting tigrayan ppls liberation cristianorf7 o ts determinou pr jairbolsonaro tirasse do ar postagens ligando pt ao pcc vamos compreender e</p></div>
