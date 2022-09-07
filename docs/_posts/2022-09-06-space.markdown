@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "space 2022-09-06"
+date:   2022-09-06 01:10:10 -0700
+categories: space
+---
+<img src="{{site.baseurl}}/assets/img/space_2022_09_06.png">
+<div><p>trometry ch satellite day year 16 progress 57 14 dwarf planet 2015 tg387 gobelin 13120670 98 46 cgmeifangzhang long march 2d carrier rocket carrying remote sensing group blasts off from xichang launch. astrometry ch satellite day year 16 progress 57 14 dwarf planet 2015 tg387 gobelin 13120670 98 46 cgmeif</p></div>

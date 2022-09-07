@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "kelowna 2022-09-06"
+date:   2022-09-06 01:10:10 -0700
+categories: kelowna
+---
+<img src="{{site.baseurl}}/assets/img/kelowna_2022_09_06.png">
+<div><p>jobs like these are now open in calgary victoria. kuma has heated chairs and a bbq store. harvey amp gordon retail rockets reduce roster something new the way read play tjx companies team see our latest opening here</p></div>

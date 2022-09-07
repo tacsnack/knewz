@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "fakenews 2022-09-06"
+date:   2022-09-06 01:10:10 -0700
+categories: fakenews
+---
+<img src="{{site.baseurl}}/assets/img/fakenews_2022_09_06.png">
+<div><p>cnn is compiling yet another orchestrated fakenews on ethiopia on behalf of tplfterroristgroup. cnn has learned that tplfterroristgroup is compiling yet another orchestrated fakenews on ethiopia. cnn has learned that tplfterroristgroup is compiling yet another orchestrated fakenews on ethiopia</p></div>
