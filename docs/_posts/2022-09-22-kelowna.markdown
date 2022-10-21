@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "kelowna 2022-09-22"
+date:   2022-09-22 01:10:10 -0700
+categories: kelowna
+---
+<img src="{{site.baseurl}}/assets/img/kelowna_2022_09_22.png">
+<div><p>kelowna real estate market is booming with new construction and a booming economy. kelowna is a great place to live for young adults aged 16-30. kelowna is a great place to live for young adults</p></div>

@@ -2,7 +2,7 @@ import requests
 import re
 import os
 import json
-import sys
+from aitextgen import aitextgen
 import random
 import shutil
 from datetime import date
@@ -100,6 +100,10 @@ def get_latest_tweets(url, query):
         raise Exception(response.status_code, response.text)
     return response.json()
 
+def write_article(prompt):
+    ai = aitextgen()
+    return ai.generate(n=3, prompt=prompt, max_length=200, return_as_list=True)
+
 def main():
     printable_date = date.today().strftime("%Y_%m_%d")
     for query in QUERIES:
@@ -180,4 +184,5 @@ def generate_docs():
 if __name__ == "__main__":
     main()
     generate_docs()
-    
+    # import pprint
+    # pprint.pprint(write_article("elon fake is going on a norwegian cruise"))

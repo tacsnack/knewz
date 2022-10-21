@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "nhl 2022-09-22"
+date:   2022-09-22 01:10:10 -0700
+categories: nhl
+---
+<img src="{{site.baseurl}}/assets/img/nhl_2022_09_22.png">
+<div><p>nathanmackinnon s new deal carries an average annual value of 12 6 million. colorado will pay approximately 85 the agreement 34 100 8 in signing bonuses. avalanche inked superstar center eight year contract extension tuesday september 20</p></div>

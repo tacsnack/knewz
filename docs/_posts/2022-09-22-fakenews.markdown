@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "fakenews 2022-09-22"
+date:   2022-09-22 01:10:10 -0700
+categories: fakenews
+---
+<img src="{{site.baseurl}}/assets/img/fakenews_2022_09_22.png">
+<div><p>manpour copbs fakenews trying to bump up ratings het ging in iran toch om de strenge kledingvoorschriften jeugdjournaal niet islamitische hoofddoek volgens jullie dan rt botcheckercl limpiemos twitter denunciemos en masa la cuenta este mit mano argentino</p></div>

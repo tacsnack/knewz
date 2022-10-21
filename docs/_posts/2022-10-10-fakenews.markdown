@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "fakenews 2022-10-10"
+date:   2022-10-10 01:10:10 -0700
+categories: fakenews
+---
+<img src="{{site.baseurl}}/assets/img/fakenews_2022_10_10.png">
+<div><p>rt eltiempo fakenews es falso que el tiempo haya publicado esta noticia sobre diego molano no caiga en noticias falsas jeromek56144418 spirosmargaris can artificialintelligence solve fintech ai machinelearning deeplearning paula piccard ipfconline1 jul</p></div>

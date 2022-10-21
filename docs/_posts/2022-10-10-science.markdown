@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "science 2022-10-10"
+date:   2022-10-10 01:10:10 -0700
+categories: science
+---
+<img src="{{site.baseurl}}/assets/img/science_2022_10_10.png">
+<div><p>rt picphysicians help nasa engineer vital components for curiosity. alumna arzucan ozgur receives academy young award</p></div>
