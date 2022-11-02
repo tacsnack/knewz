@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "nhl 2022-11-01"
+date:   2022-11-01 01:10:10 -0700
+categories: nhl
+---
+<img src="{{site.baseurl}}/assets/img/nhl_2022_11_01.png">
+<div><p>evander kane oilers has hat trick vs predators dfs fanduel draftkings nfl nba mlb mma ufc pga nascar soccer dailyfantasysports fantasysports. kane oilersfan leon draisaitl amp connor mcdavid are just something else mang</p></div>

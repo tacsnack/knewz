@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "kelowna 2022-11-01"
+date:   2022-11-01 01:10:10 -0700
+categories: kelowna
+---
+<img src="{{site.baseurl}}/assets/img/kelowna_2022_11_01.png">
+<div><p>missionhillwine is a great holiday event supporting bcchf this year partnering with deltagrandhotel bcwine kelowna westkelowna kelownamuseums on november 11th. our military historian keith will be in gallery using objects and images unravel stories from new covid 19 exposure report at belgo elementary school</p></div>

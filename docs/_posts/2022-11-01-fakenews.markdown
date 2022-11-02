@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "fakenews 2022-11-01"
+date:   2022-11-01 01:10:10 -0700
+categories: fakenews
+---
+<img src="{{site.baseurl}}/assets/img/fakenews_2022_11_01.png">
+<div><p>twitter s algorithms explicitly promote tweets by verified handles. ctv news is claiming that beef is being used in dairymilk. a spokesman for the fbi says the fbi is investigating the claims</p></div>

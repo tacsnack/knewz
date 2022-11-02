@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "politics 2022-11-01"
+date:   2022-11-01 01:10:10 -0700
+categories: politics
+---
+<img src="{{site.baseurl}}/assets/img/politics_2022_11_01.png">
+<div><p>obama aides aren t supposed to keep the president in dark election debates. sp500 warns of recession following latest rate hike. sp500 warns of a'severe' recession</p></div>

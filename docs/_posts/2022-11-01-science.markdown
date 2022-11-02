@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "science 2022-11-01"
+date:   2022-11-01 01:10:10 -0700
+categories: science
+---
+<img src="{{site.baseurl}}/assets/img/science_2022_11_01.png">
+<div><p>301 young researchers have been selected for funding under serbonline national post doctoral fellowship. ai tech cyber cybersecurity code sherlock womenwhocode python gamedevs gideontheninth girlswhocode womenintech tech4all flutter and andomics reuse public datasets life sciences bigdata retweet open funny universe everyone depend flat hardware communicate world hgt hologram has not yet invented technology engineering</p></div>
