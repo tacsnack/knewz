@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "fakenews 2022-12-09"
+date:   2022-12-09 01:10:10 -0700
+categories: fakenews
+---
+<img src="{{site.baseurl}}/assets/img/fakenews_2022_12_09.png">
+<div><p>rt doctor fate wenachile elneoliberalcl exantecl el estallido social es la fake news mas grande que se ha hecho en chile todo fue planificado por pablocampiq jupolnacional jucilnacional jusapol augc comunica uniongc policiandalucia y</p></div>

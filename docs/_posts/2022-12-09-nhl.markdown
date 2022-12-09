@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "nhl 2022-12-09"
+date:   2022-12-09 01:10:10 -0700
+categories: nhl
+---
+<img src="{{site.baseurl}}/assets/img/nhl_2022_12_09.png">
+<div><p>boston bruins face arizona coyotes in the nhl cup on tuesday. rossi mann talks about his goaltending woes with the nhl. jordan binnington is a nhl fanatic</p></div>

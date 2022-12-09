@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "politics 2022-12-09"
+date:   2022-12-09 01:10:10 -0700
+categories: politics
+---
+<img src="{{site.baseurl}}/assets/img/politics_2022_12_09.png">
+<div><p>hadow ban on facebook and twitter has shocked washington. a new poll shows that a u k congressman is most concerned about a u k election. a u k mp says he is 'not happy' with the u k s stance on terrorism</p></div>

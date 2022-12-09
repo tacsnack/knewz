@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "space 2022-12-09"
+date:   2022-12-09 01:10:10 -0700
+categories: space
+---
+<img src="{{site.baseurl}}/assets/img/space_2022_12_09.png">
+<div><p>nasa iss report 12 08 2022. nasa iss report 12 08 2022. nasa iss report 12 08 2022</p></div>
